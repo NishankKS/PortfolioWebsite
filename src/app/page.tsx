@@ -7,6 +7,7 @@ import HackathonsSection from '@/components/sections/hackathons';
 import WorkSection from '@/components/sections/projects';
 import VolunteerSection from '@/components/sections/volunteer';
 import ResearchSection from '@/components/sections/research';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
       <AboutMeSection />
       <SkillsSection />
       <ExperienceSection />
-
+      <Analytics />
       <WorkSection />
       <HackathonsSection />
       <VolunteerSection />

@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ['latin'] });
 const title = 'Nishank Satish';
 const description =
   '';
-const url = 'https://nishanksatish.tech';
+const url = 'https://nishanksatish.live';
 
 export const metadata: Metadata = {
   metadataBase: new URL(url),
