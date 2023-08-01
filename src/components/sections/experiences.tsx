@@ -12,7 +12,7 @@ const ExperienceSection = () => {
           <Tag label="Experience" />
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
-        Through career's maze, I navigate with grace, seizing opportunities in every workplace.
+        Through career&apos;s maze, I navigate with grace, seizing opportunities in every workplace.
         </Typography>
 
         <Typography variant="subtitle" className="max-w-xl text-center">

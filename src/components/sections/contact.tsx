@@ -49,7 +49,7 @@ const ContactSection = () => {
         </div>
         <Typography variant="subtitle" className="max-w-xl text-center">
          
-Feel free to get in touch with me if you have any inquiries or would like to establish a connection. I'm here and eager to engage in a conversation!
+Feel free to get in touch with me if you have any inquiries or would like to establish a connection. I am here and eager to engage in a conversation!
         </Typography>
       </div>
 

@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-            Excited about developments in the technology-driven world and wanting to contribute to the same. I am passionate about Data Science, Data Engineering and Machine Learning with a Bachelor's focused in Artificial Intelligence and Machine Learning from Dayananda Sagar College of Engineering.
+            Excited about developments in the technology-driven world and wanting to contribute to the same. I am passionate about Data Science, Data Engineering and Machine Learning with a BachelorI&apos;s focused in Artificial Intelligence and Machine Learning from Dayananda Sagar College of Engineering.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">

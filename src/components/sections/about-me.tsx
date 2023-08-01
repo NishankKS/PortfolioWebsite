@@ -43,7 +43,7 @@ const AboutMeSection = () => {
 
           </Typography>
           <Typography style={{ textAlign: 'justify' }}>
-          Beyond the realms of technology, you'll find him on the cricket pitch, a place where he finds joy in sportsmanship and teamwork. When he is not coding or breaking a sweat, he immerses himself in the world of non-fiction books, relishing the knowledge and wisdom they offer. Moreover, his treasured moments are spent with his beloved family and friends, cherishing the precious bonds they share.
+          Beyond the realms of technology, you will find him on the cricket pitch, a place where he finds joy in sportsmanship and teamwork. When he is not coding or breaking a sweat, he immerses himself in the world of non-fiction books, relishing the knowledge and wisdom they offer. Moreover, his treasured moments are spent with his beloved family and friends, cherishing the precious bonds they share.
 
           </Typography>
           
