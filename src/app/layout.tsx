@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 const title = 'Nishank Satish';
 const description =
-  '';
+  'Aspiring Data Engineer and Machine Learning Enthusiast';
 const url = 'https://nishanksatish.live';
 
 export const metadata: Metadata = {
