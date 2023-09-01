@@ -204,7 +204,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Anand logo',
     position: 'Data Science Intern',
     startDate: new Date(2023, 3),
-    currentlyWorkHere: true,
+    endDate: new Date(2023, 7),
     summary: [
       'Working on developing an image processing model in a team of eight, that helps to identify the results obtained from the Typhifast ICT Card images and update it in the LIS.',
       
