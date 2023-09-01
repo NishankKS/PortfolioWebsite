@@ -32,9 +32,9 @@ const AboutMeSection = () => {
           <Typography variant="h3">
           Unveiling the Creator Within : A Journey of Passion and Purpose 🚀</Typography>
           <Typography style={{ textAlign: 'justify' }}>
-          Nishank is a passionate geek with an insatiable love for coding and a relentless drive to explore new frontiers of technology. 
+          Nishank is a passionate geek with love for coding and a relentless drive to explore new frontiers of technology. 
           He loves to dive into the fascinating world of programming and experiment with cutting-edge innovations.
-          Currently, he is pursuing a <b>Bachelor of Engineering</b> focused in <b>Artificial Intelligence & Machine Learning</b> at DSCE, Bengaluru having a strong academic background with <b>9.27/10 CGPA</b> so far.
+          Currently, he is pursuing a <b>Bachelor of Engineering</b> focused in <b>Artificial Intelligence & Machine Learning</b> at DSCE, Bengaluru having a strong academic background with <b>9.40/10 CGPA</b> so far.
 
           </Typography>
           <Typography style={{ textAlign: 'justify' }}>

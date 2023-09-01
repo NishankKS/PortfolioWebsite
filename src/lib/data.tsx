@@ -204,10 +204,10 @@ export const EXPERIENCES: ExperienceDetails[] = [
     logoAlt: 'Anand logo',
     position: 'Data Science Intern',
     startDate: new Date(2023, 3),
-    currentlyWorkHere: true,
+    endDate: new Date(2023, 7),
     summary: [
-      'Working on developing an image processing model in a team of eight, that helps to identify the results obtained from the Typhifast ICT Card images and update it in the LIS.',
-      
+      'Developed an image processing model, that helps to identify the results obtained from the Typhifast ICT Card images and update it in the LIS.',
+      'Implemented the process of segmentation, pre-processing, augmentation and prediction of results from images with an accuracy of 97%.'
     ],
     techstack:'Tech Stack: Python, Tensorflow, OpenCV',
   },
@@ -221,6 +221,7 @@ export const EXPERIENCES: ExperienceDetails[] = [
     endDate: new Date(2023, 2),
     summary: [
       'Developed a full stack web voting application which can be used to carry out the voting of uploaded videos and can also be used to track the votes under each category and participants.',
+      'Implemented authentication and voting dashboard for admins and ensured seamless integration with MySQL using the XAMPP server.'
     ],
     techstack:'Tech-Stack: HTML, CSS, JS, PHP and MySQL',
   },

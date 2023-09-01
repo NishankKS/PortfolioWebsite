@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { MapPin } from 'lucide-react';
 
-import NishankHeadshot from '/public/images/nishank-headshot.png';
+import NishankHeadshot from '/public/images/nishank_intel.jpg';
 import SocialIcons from '@/components/data-display/social-icons';
 import Typography from '@/components/general/typography';
 import Container from '@/components/layout/container';
@@ -31,7 +31,7 @@ const HeroSection = () => {
               <span className="inline-block animate-waving-hand">👋</span>
             </Typography>
             <Typography>
-            Excited about developments in the technology-driven world and wanting to contribute to the same. I am passionate about Data Science, Data Engineering and Machine Learning with a Bachelor&apos;s focused in Artificial Intelligence and Machine Learning from Dayananda Sagar College of Engineering.
+            Enthusiastic fresher in machine learning and data science, eager to apply analytical skills to create innovative solutions and drive data-driven decision-making. Committed to continuous learning and advancing AI applications that can autonomously adapt and optimize, leading to more intelligent and self-improving applications.
             </Typography>
           </div>
           <div className="flex flex-col gap-2">
