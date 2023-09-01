@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import NishankFullPose from '/public/images/nishank-full.jpg';
+import NishankFullPose from '/public/images/fullshot.png';
 import Tag from '@/components/data-display/tag';
 import Container from '@/components/layout/container';
 import Typography from '@/components/general/typography';
