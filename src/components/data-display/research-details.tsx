@@ -10,48 +10,29 @@ const dateFormatOptions: Intl.DateTimeFormatOptions = {
 const ReserachDetails = ({
   
   position,
-  currentlyWorkHere,
-  startDate,
-  endDate,
+
   summary,
+  status,
   
-  techstack,
+
 }: ResearchDetailsProps) => {
   return (
     <Card className="mx-auto flex w-full max-w-4xl flex-col justify-between gap-4 p-8 md:flex-row md:gap-8">
       
-      <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4" style={{width: 80 + '%'}}>
+      <div className="flex flex-col gap-4 max-md:order-3 md:w-2/4" style={{width: 100 + '%'}}>
       
         <Typography variant="body2" className="font-semibold text-gray-900">
           {position}
         </Typography>
-        <div className="flex items-center gap-2">
-              <div className="flex h-6 w-6 items-center justify-center">
-                <span className="relative flex h-3 w-3">
-                  <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-amber-400 opacity-75"></span>
-                  <span className="relative inline-flex h-3 w-3 rounded-full bg-amber-400"></span>
-                </span>
-              </div>
-              <Typography>In Progress</Typography>
-            </div>
+        <Typography className="font-semibold text-gray-600" style={{ fontStyle: "italic" }}>
+          {status}
+          </Typography>
             <Typography style={{ textAlign: 'justify' }}>
               {summary}
             </Typography>
-        
+            
       </div>
-      <Typography className="text-gray-700 md:text-right">
-          {new Intl.DateTimeFormat('en-US', dateFormatOptions).format(
-            startDate
-          )}{' '}
-          -{' '}
-          {currentlyWorkHere
-            ? 'Present'
-            : endDate
-            ? new Intl.DateTimeFormat('en-US', dateFormatOptions).format(
-                endDate
-              )
-            : 'NA'}
-        </Typography>
+      
     </Card>
   );
 };

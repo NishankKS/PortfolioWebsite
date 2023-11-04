@@ -48,11 +48,9 @@ export type VolunteerDetails = {
 export type ResearchDetails = {
  
   position: string;
-  currentlyWorkHere?: boolean;
-  startDate: Date;
-  endDate?: Date;
   summary: string;
-  techstack: string;
+  status?: string;
+  
   
 };
 

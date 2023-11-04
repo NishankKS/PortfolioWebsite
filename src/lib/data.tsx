@@ -359,21 +359,22 @@ export const VOLUNTEER: VolunteerDetails[] = [
 ];
 
 export const RESEARCH: ResearchDetails[] = [
-  {
-    position: 'Advancing Oral Cancer Detection: 3D CNN-based Classification and Segmentation of Oral Cancer Lesions',
-    startDate: new Date(2023, 2),
-    currentlyWorkHere: true,
-    summary: 'Research article focussed on developing an innovative approach for advancing oral cancer detection using 3D Convolutional Neural Networks (CNNs). The proposed method involves both classification and segmentation of oral cancer lesions in volumetric medical imaging data, surpassing the limitations of traditional 2D CNNs. The extensive experimentation and evaluation on an oral cancer dataset demonstrate the efficacy and reliability of the approach, offering promising prospects for improving oral cancer diagnosis and patient outcomes through AI-driven healthcare solutions.',
-    techstack:'Tech Stack: Python, Tensorflow, OpenCV',
-  },
-  {
-    
+ 
+  {   
     position: 'Comprehensive Analysis and Prediction of Bioactivity and Toxicity in Drug Discovery using Machine Learning Approach',
-    startDate: new Date(2023, 3),
-    currentlyWorkHere: true,
     summary:
       'Research article focussed on application of AI techniques in drug discovery, enabling faster assessment and ranking of potential drug candidates based on their target characteristics. The study specifically focuses on Alzheimer\'s disease and uses machine-learning algorithms to identify prospective AChE inhibitor candidates. Additionally, toxicity data from comprehensive databases aids in evaluating compound safety.',
-    techstack:'Tech-Stack: HTML, CSS, JS, PHP and MySQL',
+    status:"Published in the International Journal on Recent and Innovation Trends in Computing and Communication (Scopus Indexed)",
   },
-  
+  {
+    position: 'Enhancing Traffic Management through Density-Based Dynamic Traffic Signaling and Audio-Visual Emergency Vehicle Priority Coordination',
+    summary: 'Research article focused on addressing the challenges of increasing traffic congestion and its adverse effects on daily life and emergency services. The paper presents a hybrid system that employs deep learning models for dynamic traffic signaling and real-time detection of emergency vehicles. Vehicle Detection uses Single Shot Detector (SSD) and Emergency Vehicle Detection combines audio and video inputs to confirm the presence of an emergency vehicle.',
+    status: 'Under Review in the International Arab Journal of Information Technology (Scopus Indexed)'
+  },
+  {
+    position: 'A Novel Image Processing Approach in Immunochromatographic Test (ICT) Card Images for Typhoid Detection using Deep Learning',
+    summary: 'Research article focussed on harnessing the impressive capabilities of deep learning models for intelligent image processing in the interpretation of immunochromatographic test (ICT) results. Recognizing the susceptibility of manual ICT result interpretation to errors, the study proposes an innovative approach: utilizing deep learning to automate and improve the interpretation of these results.',
+    status:'Under Review'
+  },
+
 ];
